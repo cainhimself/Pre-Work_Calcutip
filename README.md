@@ -6,7 +6,7 @@ Submitted by: He Zhang
 Time spent: 7 hours spent in total
 
 ## User Stories
-![Calcutip Demo gif] (Calcutip Gif Demo.gif)
+![Calcutip Demo gif] (Calcutip Demo.gif)
 
 The following **required** functionality is complete:
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
