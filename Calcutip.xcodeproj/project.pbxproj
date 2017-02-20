@@ -14,6 +14,8 @@
 		5726E3CD1E342619003DE3A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5726E3CB1E342619003DE3A5 /* LaunchScreen.storyboard */; };
 		5726E3D81E342619003DE3A5 /* CalcutipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5726E3D71E342619003DE3A5 /* CalcutipTests.swift */; };
 		5726E3E31E342619003DE3A5 /* CalcutipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5726E3E21E342619003DE3A5 /* CalcutipUITests.swift */; };
+		57C417AA1E5A8D3C00D532E7 /* DINLIGHT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 57C417A91E5A8D3C00D532E7 /* DINLIGHT.TTF */; };
+		57C417AC1E5A8F2900D532E7 /* DINMEDIU.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 57C417AB1E5A8F2900D532E7 /* DINMEDIU.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5726E3DE1E342619003DE3A5 /* CalcutipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcutipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5726E3E21E342619003DE3A5 /* CalcutipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcutipUITests.swift; sourceTree = "<group>"; };
 		5726E3E41E342619003DE3A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C417A91E5A8D3C00D532E7 /* DINLIGHT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = DINLIGHT.TTF; sourceTree = "<group>"; };
+		57C417AB1E5A8F2900D532E7 /* DINMEDIU.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = DINMEDIU.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				5726E3C91E342619003DE3A5 /* Assets.xcassets */,
 				5726E3CB1E342619003DE3A5 /* LaunchScreen.storyboard */,
 				5726E3CE1E342619003DE3A5 /* Info.plist */,
+				57C417A81E5A8CD200D532E7 /* Font Folder */,
 			);
 			path = Calcutip;
 			sourceTree = "<group>";
@@ -123,6 +128,15 @@
 				5726E3E41E342619003DE3A5 /* Info.plist */,
 			);
 			path = CalcutipUITests;
+			sourceTree = "<group>";
+		};
+		57C417A81E5A8CD200D532E7 /* Font Folder */ = {
+			isa = PBXGroup;
+			children = (
+				57C417AB1E5A8F2900D532E7 /* DINMEDIU.TTF */,
+				57C417A91E5A8D3C00D532E7 /* DINLIGHT.TTF */,
+			);
+			name = "Font Folder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +249,8 @@
 				5726E3CD1E342619003DE3A5 /* LaunchScreen.storyboard in Resources */,
 				5726E3CA1E342619003DE3A5 /* Assets.xcassets in Resources */,
 				5726E3C81E342619003DE3A5 /* Main.storyboard in Resources */,
+				57C417AC1E5A8F2900D532E7 /* DINMEDIU.TTF in Resources */,
+				57C417AA1E5A8D3C00D532E7 /* DINLIGHT.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +519,7 @@
 				5726E3E91E342619003DE3A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5726E3EA1E342619003DE3A5 /* Build configuration list for PBXNativeTarget "CalcutipTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +528,7 @@
 				5726E3EC1E342619003DE3A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5726E3ED1E342619003DE3A5 /* Build configuration list for PBXNativeTarget "CalcutipUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +537,7 @@
 				5726E3EF1E342619003DE3A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
